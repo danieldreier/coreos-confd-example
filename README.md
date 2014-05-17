@@ -9,7 +9,7 @@ How to use
 SSH to your CoreOS system:
 
 ```bash
-docker run -t -i --rm danieldreier/coreos-confd-demo /bin/bash
+docker run -t -i --rm danieldreier/coreos-confd-example /bin/bash
 alias etcdctl='etcdctl --peers 172.17.42.1:4001'
 etcdctl set /myapp/database/url db.example.com
 etcdctl set /myapp/database/user rob
